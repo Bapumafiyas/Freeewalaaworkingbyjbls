@@ -91,7 +91,7 @@ async def start_command(client: Client, message: Message):
                     InlineKeyboardButton("😊 About Me", callback_data = "about"),
                     InlineKeyboardButton("🔒 Close", callback_data = "close")
                 ]
-  await asyncio.sleep(600)          ]
+  await asyncio.sleep(600)]
         )
         await message.reply_text(
             text = START_MSG.format(
